@@ -3,9 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Brighton Tembo — CS Student Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello CBU!</h1>
+    <header>
+      <h1>Brighton Tembo</h1>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Interests</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <div class="profile1">
+          <figure>
+            <img
+              src="images/profile.jpg"
+              alt="Photo of Brighton Tembo"
+              width="200"
+              height="200"
+            />
+            <figcaption>Brighton Tembo — 3rd Year CS Student</figcaption>
+          </figure>
+          <div class="profile1-text">
+            <h2>Brighton Tembo</h2>
+            <p class="profile1-tag">// Year 3 · Computer Science · CBU</p>
+          </div>
+        </div>
+
+        <section class="section-card" id="about">
+          <h2>About Me</h2>
+          <p>
+            I'm a third-year Computer Science student at The Copperbelt
+            University with a passion for building things that matter. From
+            crafting semantic web pages to exploring algorithms that power
+            modern software.
+          </p>
+          <p>
+            When I'm not debugging code at midnight, you'll find me studying
+            other courses in my room, mentoring my juniors or thinking about how
+            technology can solve real problems in Zambia and across Africa. I
+            believe in writing code that is readable, maintainable and fun.
+          </p>
+        </section>
+
+        <section class="section-card" id="interests">
+          <h2>Interests &amp; Courses</h2>
+          <div class="lists-grid">
+            <div class="list-block">
+              <h3>Hobbies &amp; Interests</h3>
+              <ul>
+                <li>Chess &amp; strategic board games</li>
+                <li>UI/UX design exploration</li>
+                <li>Tech blogging</li>
+                <li>Watching movies and anime</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h3>Top Academic Courses</h3>
+              <ol>
+                <li>Object Oriented Programming(CS 350)</li>
+                <li>Statistics(MA 320)</li>
+                <li>Introduction to Web Programming(CS 361)</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <aside id="contact">
+        <div class="aside-card">
+          <h3>Links</h3>
+          <a href="https://github.com/tembobrighton375-blip" target="_blank">
+            <span class="icon">&#8997;</span> GitHub
+          </a>
+          <a
+            href="www.linkedin.com/in/brighton-tembo-b1509b261"
+            target="_blank"
+          >
+            <span class="icon">&#9672;</span> LinkedIn
+          </a>
+          <a href="mailto:tembobrighton375@cbu.ac.zm">
+            <span class="icon">&#9993;</span> BrightonTembo@cbu.ac.zm
+          </a>
+        </div>
+
+        <div class="aside-card">
+          <h3>Details</h3>
+          <dl>
+            <dt>Department</dt>
+            <dd>Computer Science</dd>
+            <dt>Year</dt>
+            <dd>Year 3</dd>
+            <dt>Programme</dt>
+            <dd>BSc Computer Science</dd>
+            <dt>Institution</dt>
+            <dd>Copperbelt University</dd>
+          </dl>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Brighton Tembo &mdash; CS361 Week 3 Assignment &mdash;
+        Contact:
+        <a href="mailto:tembobrighton375@cbu.ac.zm">Brighton Tembo@cbu.ac.zm</a>
+      </p>
+    </footer>
   </body>
 </html>
